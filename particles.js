@@ -27,13 +27,13 @@ var pJS = function(tag_id, params){
         }
       },
       color: {
-        value: '#5e7d65'
+        value: '#FFFF00'
       },
       shape: {
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#ff0000'
+          color: '#FFFF00'
         },
         polygon: {
           nb_sides: 5
@@ -67,7 +67,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#5e7d65',
+        color: '#FFFF00',
         opacity: 1,
         width: 1
       },
@@ -1167,7 +1167,7 @@ var pJS = function(tag_id, params){
 
       /* calc area */
       var area = pJS.canvas.el.width * pJS.canvas.el.height / 1000;
-      if(pJS.tmp.retina){
+      if(pJS.tmp.retina){0
         area = area/(pJS.canvas.pxratio*2);
       }
 
